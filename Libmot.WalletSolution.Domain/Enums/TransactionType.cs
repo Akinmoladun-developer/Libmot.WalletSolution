@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Libmot.WalletSolution.Domain.Common
+namespace Libmot.WalletSolution.Domain.Enums
 {
-    internal class BaseDomainEntity
+    public enum TransactionType
     {
+        Credit = 1,
+        Debit = 2
     }
 }

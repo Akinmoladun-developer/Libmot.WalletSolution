@@ -3,9 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF9F7FD9-7528-47E5-A31F-0F1AEF72067E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22638C1D-D686-4C0B-AD0A-4A6EF51F04D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{87175EE2-39DB-4EB3-BCC1-DBDF32E756EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4B2FDB66-98C6-485A-86F6-39B7B77C89BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C06B5397-50EA-4121-B434-FB6856CB4D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{17CEDCAD-3D07-4ED5-9B15-582083F23B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libmot.WalletSolution.Domain", "Libmot.WalletSolution.Domain\Libmot.WalletSolution.Domain.csproj", "{DC10193F-AD30-4693-ABD0-41DE410E9F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libmot.WalletSolution.Application", "Libmot.WalletSolution.Application\Libmot.WalletSolution.Application.csproj", "{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC10193F-AD30-4693-ABD0-41DE410E9F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC10193F-AD30-4693-ABD0-41DE410E9F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC10193F-AD30-4693-ABD0-41DE410E9F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC10193F-AD30-4693-ABD0-41DE410E9F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87175EE2-39DB-4EB3-BCC1-DBDF32E756EB} = {DF9F7FD9-7528-47E5-A31F-0F1AEF72067E}
+		{4B2FDB66-98C6-485A-86F6-39B7B77C89BD} = {DF9F7FD9-7528-47E5-A31F-0F1AEF72067E}
+		{C06B5397-50EA-4121-B434-FB6856CB4D84} = {DF9F7FD9-7528-47E5-A31F-0F1AEF72067E}
+		{17CEDCAD-3D07-4ED5-9B15-582083F23B51} = {DF9F7FD9-7528-47E5-A31F-0F1AEF72067E}
+		{DC10193F-AD30-4693-ABD0-41DE410E9F85} = {4B2FDB66-98C6-485A-86F6-39B7B77C89BD}
+		{CF96D9ED-57CE-4940-A9CA-7B43DC1682FF} = {4B2FDB66-98C6-485A-86F6-39B7B77C89BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {964FE156-86E8-4814-8CD9-66C7C09C0C33}
