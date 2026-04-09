@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Libmot.WalletSolution.Application.DTOs.User
+namespace Libmot.WalletSolution.Application.DTOs
 {
     public class CreateUserRequestDto
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Libmot.WalletSolution.Application.DTOs.Transaction
+namespace Libmot.WalletSolution.Application.DTOs
 {
     public class CreditWalletRequestDto
     {
@@ -13,4 +13,5 @@ namespace Libmot.WalletSolution.Application.DTOs.Transaction
         public string Reference { get; set; }
         public string Description { get; set; }
     }
+
 }

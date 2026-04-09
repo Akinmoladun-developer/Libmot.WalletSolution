@@ -1,11 +1,10 @@
-﻿using Libmot.WalletSolution.Application.DTOs.Wallet;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Libmot.WalletSolution.Application.DTOs.User
+namespace Libmot.WalletSolution.Application.DTOs
 {
     public class UserResponseDto
     {

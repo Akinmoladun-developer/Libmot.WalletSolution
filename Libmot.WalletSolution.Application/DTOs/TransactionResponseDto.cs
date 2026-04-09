@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Libmot.WalletSolution.Application.DTOs.Transaction
+namespace Libmot.WalletSolution.Application.DTOs
 {
     public class TransactionResponseDto
     {

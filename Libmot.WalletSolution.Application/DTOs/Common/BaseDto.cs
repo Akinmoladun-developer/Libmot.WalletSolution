@@ -8,5 +8,6 @@ namespace Libmot.WalletSolution.Application.DTOs.Common
 {
     public class BaseDto
     {
+        public Guid Id { get; set; } = Guid.NewGuid();
     }
 }

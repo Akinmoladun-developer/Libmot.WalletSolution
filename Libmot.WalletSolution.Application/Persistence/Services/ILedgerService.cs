@@ -1,4 +1,4 @@
-﻿using Libmot.WalletSolution.Application.DTOs.Ledger;
+﻿using Libmot.WalletSolution.Application.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

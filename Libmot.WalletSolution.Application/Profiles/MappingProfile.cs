@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Libmot.WalletSolution.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace Libmot.WalletSolution.Application.Profiles
 {
     public class MappingProfile : Profile
     {
-
+       
     }
 }
